@@ -1,0 +1,34 @@
+.mob{
+    display: block;
+    background-color: greenyellow;
+    font-size: 20px;
+}
+
+@media(min-width: 768px){
+    .mob{
+        display: none;
+    }
+    .tab{
+        display: block;
+        background-color: hotpink;
+        font-size: 40px;
+    }
+    .lap{
+        display: none;
+    }
+}
+
+@media(min-width: 1024px){
+    .mob{
+        display: none;
+    }
+    .tab{
+        display: none;
+    }
+    .lap{
+        display: block;
+        background-color: indigo;
+        font-size: 60px;
+    }
+}
+

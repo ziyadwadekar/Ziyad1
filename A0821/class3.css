@@ -1,0 +1,22 @@
+.firstbox{
+    border: chartreuse 2px solid;
+}
+
+#internal_ul{
+    background-color: coral;
+}
+
+p[name="first_p"]{
+    background-color: pink;
+}
+
+body{
+    background-color: green;
+
+}
+
+img{
+    border-radius: 50%;
+}
+
+

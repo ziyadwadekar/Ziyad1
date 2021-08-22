@@ -1,0 +1,33 @@
+.btn{
+    background-color: red;
+    color: white;
+}
+
+.btn:hover{
+    background-color: purple;
+    color: red;
+}
+
+.btn:active{
+    background-color: black;
+    color: yellow;
+}
+
+.btn:focus{
+    background-color: green;
+    color: yellow;
+}
+
+.para::before{
+    content: "My name is" ;
+    color: blue;
+}
+
+.para::after{
+    content: "wadekar" ;
+    color: brown;
+}
+
+.para::selection{
+    background: rgb(89, 192, 21);
+}
